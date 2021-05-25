@@ -1,4 +1,4 @@
-import { authen } from "../../support/page_objects/authPage"
+import { authen } from "../../support/page_objects/pomelo_AuthPage.js"
 
 describe('Login Page Object', () => {
 
