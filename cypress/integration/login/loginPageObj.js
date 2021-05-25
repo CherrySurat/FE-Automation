@@ -1,4 +1,4 @@
-import { login } from "../../support/page_objects/loginPage"
+import { authen } from "../../support/page_objects/authPage"
 
 describe('Login Page Object', () => {
 
@@ -6,7 +6,11 @@ describe('Login Page Object', () => {
     cy.visit('/')
   })
 
-  it('login with email and password', () => {
-    login.byEmail()
+  it('login by Email', () => {
+    authen.logInBy('Email')
+  })
+
+  it('login by Phone number', () => {
+    authen.logInBy('Phone')
   })
 })
