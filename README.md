@@ -9,8 +9,9 @@
 - $ npm install
 - $ npm start
 
-// install cypress
+## Install cypress
 - $ npm install cypress --save-dev
 
-// open runner 
+## Open runner 
 - $ npx cypress open
+
